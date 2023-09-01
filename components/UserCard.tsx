@@ -13,8 +13,8 @@ const UserCard = ({ id, email, first_name, last_name, avatar }: Props) => {
     <div className="flexCenter flex-col rounded-2xl drop-shadow-card">
       <div className="relative overflow-hidden rounded-2xl shadow-lg-group">
         <Image
-          src="/nature.jpg"
-          className="transition-transform group-hover:scale-110 duration-200 rounded-2xl"
+          src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          className="rounded-2xl"
           alt="Background Card"
           width={414}
           height={314}
